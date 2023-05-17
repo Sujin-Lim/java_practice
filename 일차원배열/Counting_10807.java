@@ -1,8 +1,11 @@
-// 올릴 때 Main 으로 해야 함. 연습하는 곳임
+// TODO: 2023-05-17
+// 10807. n개의 정수중 정수 v가 몇 개 인가?
+// 마지막에 in.close();를 해줘야 함..
 
+package 일차원배열;
 import java.util.Scanner;
 
-public class Main {
+public class Counting_10807 {
     public static void main(String[] args) {
         int n, v;
         int s = 0;
@@ -22,5 +25,3 @@ public class Main {
         in.close();
     }
 }
-
-
