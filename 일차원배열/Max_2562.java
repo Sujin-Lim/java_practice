@@ -1,8 +1,11 @@
-// 올릴 때 Main 으로 해야 함. 연습하는 곳임
+// TODO: 2023-05-18
+// 2562. 9개의 서로 다른 자연수가 주어질 때, 이들 중 최댓값을 찾고 그 최댓값이 몇 번째 수인지를 구하는 프로그램을 작성하시오.
+
+package 일차원배열;
 
 import java.util.Scanner;
 
-public class Main {
+public class Max_2562 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int arr[] = new int[9];
@@ -20,5 +23,3 @@ public class Main {
         System.out.println(c);
     }
 }
-
-
