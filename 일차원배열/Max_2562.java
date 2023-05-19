@@ -19,6 +19,7 @@ public class Max_2562 {
                 c = i+1;
             }
         }
+
         System.out.println(max);
         System.out.println(c);
     }
