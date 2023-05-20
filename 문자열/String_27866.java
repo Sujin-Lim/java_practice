@@ -10,7 +10,7 @@ public class String_27866 {
         Scanner in = new Scanner(System.in);
         String s = in.next();
         int i = in.nextInt();
-        char j = s.charAt(i-1);
+        char j = s.charAt(i);
         System.out.println(j);
     }
 }

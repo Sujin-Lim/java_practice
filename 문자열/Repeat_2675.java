@@ -1,8 +1,11 @@
-// 올릴 때 Main 으로 해야 함. 연습하는 곳임
+// TODO: 2023-05-20
+// 2675. 테스트 케이스 갯수 t, 반복 횟수 r, 문자열 s
+
+package 문자열;
 
 import java.util.Scanner;
 
-public class Main {
+public class Repeat_2675 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
@@ -18,5 +21,3 @@ public class Main {
         }
     }
 }
-
-
