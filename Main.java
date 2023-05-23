@@ -5,17 +5,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int t = in.nextInt();
-        for (int i = 0; i < t; i++) {
-            int r = in.nextInt();
-            String s = in.next();
-            for (int j = 0; j < s.length(); j++) {
-                for (int k = 0; k < r; k++) {
-                    System.out.print(s.charAt(j));
-                }
-            }
-            System.out.println();
+        int n = in.nextInt();
+        int max = 0;
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = in.nextInt();
         }
+        for (int j = 1; j < n; j++) {
+            if (a[j]>a[j+1])
+                max = a[j];
+            else
+                max = a[j+1];
+        }
+
+
     }
 }
 
