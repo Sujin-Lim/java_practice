@@ -1,11 +1,10 @@
-// TODO: 2023-05-23
+// 230523
 // 11718. 입력 받은 대로 출력. 입력 최대 100줄
-
 package 문자열;
 
 import java.util.Scanner;
 
-public class InOut {
+public class InOut_11718 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a = 0;

@@ -1,8 +1,11 @@
-// 올릴 때 Main 으로 해야 함. 연습하는 곳임
+// 230524
+// 5597. 한 반 30명 학생. 과제 28명 제출. 안 낸 사람 두 명의 번호? 
+
+package 일차원배열;
 
 import java.util.Scanner;
 
-public class Main {
+public class Homework_5597 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] arr = new int[30];
@@ -18,5 +21,3 @@ public class Main {
         }
     }
 }
-
-
