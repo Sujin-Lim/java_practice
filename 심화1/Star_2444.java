@@ -1,8 +1,11 @@
-// 올릴 때 Main 으로 해야 함. 연습하는 곳임
+// 230528
+// 2444. 다이아몬드 별 찍기
+
+package 심화1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Star_2444 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -26,5 +29,3 @@ public class Main {
         }
     }
 }
-
-
