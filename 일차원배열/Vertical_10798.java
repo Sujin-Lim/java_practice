@@ -1,8 +1,12 @@
-// 올릴 때 Main 으로 해야 함. 연습하는 곳임
+// 230608
+// 10798. 총 다섯줄 입력 주어짐. 각 줄에는 1~15개 글자가 주어짐. 세로로 읽어서 출력
+
+
+package 일차원배열;
 
 import java.util.Scanner;
 
-public class Main {
+public class Vertical_10798 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] lines = new String[5];
@@ -21,5 +25,3 @@ public class Main {
         System.out.println(result.toString());
     }
 }
-
-
